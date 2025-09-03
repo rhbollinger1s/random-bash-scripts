@@ -9,4 +9,4 @@ e.g. cd ~/downloads \
 3): Make the file executable \
 chmod +x scriptname.sh \
 4): run the file \
-./scriptname.sh \
+./scriptname.sh
