@@ -3,11 +3,11 @@
 # Varable Setting
 number=0
 
-# Have user enter a number
-read -p "please enter a number: " userNumber
-
 # Clear Screen
 clear
+
+# Have user enter a number
+read -p "please enter a number: " userNumber
 
 # if, elif, and else.
 if [[ 1 == 0 ]]; then
