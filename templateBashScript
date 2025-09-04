@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Varable Setting
+number=0
+
+# Have user enter a number
+read -p "please enter a number: " userNumber
+
+# Clear Screen
+clear
+
+# if, elif, and else.
+if [[ 1 == 0 ]]; then
+  echo "one equals zero"
+elif [[ 7 == $number ]]; then
+  echo "number equals 7"
+elif [[ $userNumber == 5 ]]; then
+  echo " $userNumber equals 5 "
+else
+  echo "nothing is true..."
+fi
