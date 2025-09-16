@@ -9,7 +9,7 @@ mkdir isoRepo
 cd isoRepo
 
 #Ask if they want large (l) or small (s) repo of ISOs
-read -p "please enter if you want large (l), or small repository of ISOs. Large takes more space, but has more ISOs. (l/s)" repoAmount
+read -p "please enter if you want large (l), or small (s) repository of ISOs. Large takes more space, but has more ISOs. (l/s)" repoAmount
 if [[ $repoAmount == l ]]; then
   echo "Large Repo Downloading"
   #Download the ISOs
@@ -47,6 +47,6 @@ elif [[ $repoAmount == s ]]; then
   #Puppy
   curl -L -o -c $isoRepo "https://distro.ibiblio.org/puppylinux/puppy-bookwormpup/BookwormPup64/10.0.10/BookwormPup64_10.0.10.iso"
 else;
-  echo "error, you can only enter l or s. Script killed
+  echo "error, you can only enter l or s. Script killed"
   exit
 fi
